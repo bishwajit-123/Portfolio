@@ -1,0 +1,19 @@
+@import "../../app.scss";
+.sllidingContainer{
+    position: absolute;
+    font-size: 50vh;
+    white-space: nowrap;
+    color: #ffffff09;
+    width: 50%;
+    font-weight: bold;
+    cursor: pointer;
+
+    @include mobile {
+        display: none;
+    }
+
+    
+}
+.body {
+    background: linear-gradient(100deg,  #111132, #0c0c1d);
+}

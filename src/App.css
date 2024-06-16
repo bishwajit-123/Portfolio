@@ -1,0 +1,16 @@
+:root {
+    --background: 30 41 59;
+    --highlight: 255 255 255;
+  
+    --bg-color: linear-gradient(rgb(var(--background)), rgb(var(--background)));
+    --border-color: linear-gradient(145deg,
+      rgb(var(--highlight)) 0%,
+      rgb(var(--highlight) / 0.3) 33.33%,
+      rgb(var(--highlight) / 0.14) 66.67%,
+      rgb(var(--highlight) / 0.1) 100%);
+  }
+  
+  .bg-gradient {
+    background: padding-box var(--bg-color), border-box var(--border-color);
+  }
+  

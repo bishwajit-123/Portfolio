@@ -1,0 +1,20 @@
+@import "../../app.scss";
+.back{
+    overflow:hidden;
+    height: 100%;
+
+  
+
+    @include mobile {
+        height: 100%;
+        overflow:hidden;
+        align-items: center;
+        justify-content: center;
+        padding-top: 50px;
+       
+     }
+
+}
+
+
+  

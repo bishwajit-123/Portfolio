@@ -1,0 +1,50 @@
+@import "../../app.scss";
+
+.navbar {
+    height: 85px;
+    background: linear-gradient(100deg, #0c0c1d, #111132);
+
+    .wrapper {
+        max-width: 1440px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-around; 
+        height: 100%;
+        font-size: 30px;
+        
+        
+        @include mobile {
+            justify-content: flex-end; 
+            padding: 20px; 
+        }
+        
+
+        span {
+            font-weight: bold;
+
+            @include mobile {
+                display: none;
+                
+            }
+        }
+
+        .social {
+            display: flex;
+            gap: 20px;
+            
+
+            img {
+                width: 40px;
+                height: 50px;
+                @include mobile {
+                   width: 25px;
+                   height: 30px; 
+                }
+                
+            }
+        }
+        
+
+    }
+}
